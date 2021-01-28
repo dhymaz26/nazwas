@@ -100,7 +100,7 @@ const { limit } = require('./database/menu/limit*/
 const vcard = 'BEGIN:VCARD\n' // metadata of the contact card
             + 'VERSION:3.0\n' 
             + 'FN:Mass:)\n' // full name
-            + 'ORG:Owner Bot;\n' // the organization of the contact
+            + 'ORG:Mass;\n' // the organization of the contact
             + 'TEL;type=CELL;type=VOICE;waid=6285796582392:+62 857-9658-2392\n' // WhatsApp ID + phone number
             + 'END:VCARD'
 prefix = '.'
@@ -423,7 +423,7 @@ async function starts() {
 
                         // Options
                         const botName = 'X-AV'
-                        const ownerName = 'Mass:)'
+                        const ownerName = 'Mass'
                         const BarBarKey = 'Nkwp9oR7Eg9yyKbejBpm'
 
 			const isUrl = (url) => {
